@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v87_16 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,229,180,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v87_17 {
+  width: 100%;
+  height: 200px;
+  background: rgba(201,153,175,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v87_18 {
+  width: 975px;
+  color: rgba(37,37,37,1);
+  position: absolute;
+  top: 28px;
+  left: 232px;
+  font-family: Modak;
+  font-weight: Regular;
+  font-size: 100px;
+  opacity: 1;
+  text-align: center;
+}
+.v93_64 {
+  width: 400px;
+  height: 400px;
+  background: url("/img/pajaro.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 312px;
+  left: 36px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.v93_65 {
+  width: 959px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 325px;
+  left: 444px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v93_66 {
+  width: 333px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 775px;
+  left: 553px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v96_12 {
+  width: 333px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 244px;
+  left: 531px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.btnsi {
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  margin-top: 55%;
+  background: #5cb560;
+  margin-left: 42%;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+.btnno {
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  margin-top: 55%;
+  background: #5cb560;
+  margin-left: 50%;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}

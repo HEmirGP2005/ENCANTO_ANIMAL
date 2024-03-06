@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-color: #FFE5B4;
+  align-items: center;
+}
+header {
+  display:grid;
+  text-align: center;
+  font-size: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+  background: #96DFBA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+a  {
+  text-decoration: none;
+  color: black;
+  }
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 90px;
+  height: 90px;
+  }
+  
+.perfil {
+  position: absolute;
+  font-size: 40px;
+  top: 31px;
+  right: 100px;
+  width: 90px;
+  height: 110px;
+  margin-right: 5px;
+  }
+h2 {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 40px;
+}
+.contenido {
+  align-items: first baseline;
+  text-align: center;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+.op1 {
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  background-color: #96DFBA;
+  font-size: 20px;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+.op1:hover{
+  background:#74cea1 ;
+}
+.Opcion1{
+  margin: 20px;
+  padding: 0;
+
+}
+.op2 {
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  background-color: #96DFBA;
+  font-size: 20px;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+.op2:hover{
+  background:#74cea1 ;
+}
+.titulo{
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  top: 31px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 60px;
+}

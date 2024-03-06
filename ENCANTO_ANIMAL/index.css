@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: #AFFFD9;
+    text-align: center;
+}
+.degradado {
+    background: linear-gradient(to top,  #FFE39C, #F78CB2);
+    height: 350px;
+    border-radius: 0 0 50% 50% / 0 0 10% 10%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+header{
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 30px;
+    size: 300px;
+
+}
+
+.btnInicio {
+    align-items: center;
+    width: 230px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 30px;
+    text-decoration: none;
+    border:1px solid black ;
+    border-width: 5px;
+}
+.logo {
+    width: 170px;
+    align-items: center;
+
+}
+.titulo {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.texto {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
