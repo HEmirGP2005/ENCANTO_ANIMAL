@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Formulario.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap">
+  <link rel="icon" href="/img/logo.png" type="image/png">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <header>
+    <a href="/Menú/Menu.html"><img src="/img/logo.png" alt="Logo" class="logo"></a>
+    <div class="perfil">
+      <a></a>
+      <a href="/Perfil_Usuario/Perfil_usuario.html"><i class="material-symbols-outlined">account_circle</i></a>
+  </div>
+    <a class="titulo" href="/Menú/Menu.html"><h1>ENCANTO ANIMAL</h1></a>
+</header>
+
+<form id="adoptionForm">
+  <div class="container">
+        <div class="section">
+          <h3>Datos del animal:</h3>
+          <div class="row">
+            <div class="col-6">
+              <label for="nombreA">Nombre del Animal:</label>
+              <input class="input1" type="text" id="nombreA" name="nombreA" required>
+            </div>
+            <div class="col-6">
+              <label for="EdadA">Edad:</label>
+              <input class="input1" type="number" id="EdadA" name="EdadA" min="0" max="99" required>
+            </div>
+            <div class="col-6">
+              <label for="RazaA">Raza:</label>
+              <input class="input1" type="text" id="RazaA" required>      
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <label for="vacunas">¿Cuenta con vacunas?</label>
+              <input class="input1" type="text" id="vacunas" name="vacunas" required>
+            </div>
+            <div class="col-6">
+              <label for="cualesEnfermedades">¿Cuáles?:</label>
+              <input class="input1" type="text" id="CualesVa" name="CualesVa" required> 
+            </div>
+            <div class="col-6">
+              <label for="enfermedad">Padece alguna enfermedad:</label>
+              <input class="input1" type="text" id="enfermedad" name="enfermedad" required>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-7" style="width: 31.5%;">
+              <label for="discapacidad">¿Padece alguna discapacidad?</label>
+              <input class="input1" type="text" id="discapacidad" name="discapacidad" required>
+            </div>
+            <div class="col-6" style="width: 20%; margin-right: 46%;">
+              <label for="imagenes">Agrega una imagen:</label>
+              <input class="input1" type="file" id="animalImage" name="animalImage" accept="image/*" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <label for="telefono">Teléfono:</label>
+              <input class="input1" type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="col-6">          
+              <label for="correo">Correo:</label>
+              <input class="input1" type="email" id="correo" name="correo" required>
+            </div>
+            <div class="col-7" style="width: 100%;">
+          <label for="datosAdicionales">Datos adicionales:</label>
+          <textarea id="datosA" name="datosA" rows="4" cols="50" maxlength="1000"></textarea>  
+            </div>
+          </div>
+        </div>
+  </div>
+  
+  </form>
+
+
+
+  <div id="terms-modal" class="modal">
+    <div class="modal-content">
+      <h2 style="font-size: 50px;">Términos y Condiciones</h2>
+      <div class="contenido1">
+        <p>
+          <p>CONDICIONES DE USO</p>
+          <p>1.Pagina Principal</p>
+          <p> a) Aceptación de los términos: al acceder y utilizar la página de adopción de 
+            mascotas, el usuario acepta cumplir con los términos y condiciones establecidos.</p>
+          <p>b) Uso Personal: la página de adopción 
+            de mascotas está destinada únicamente al uso personal y no comercial. No está permitido utilizar la página para 
+            promocionar productos o servicios ajenos a la adopción de mascotas, de no hacer caso omiso, será baneado. </p>
+            <p>c) Contenido generado por los usuarios: los usuarios son responsables del contenido que publiquen en la página de 
+              adopción de mascotas, incluyendo anuncios de adopción, mascotas, comentarios y opiniones. No sé permite publicar 
+              contenido ofensivo, ilegal, difamatorio o que infriga alguna norma social.</p>
+            <p>2. Dar en adopción</p>
+            <p>a) Veracidad de la 
+              información: el usuario que desee dar en adopción se compromete a proporcionar información veraz y precisa, incluyendo 
+              su estado de salud, edad, comportamiento, requisitos especiales y detalles relevantes.</p>
+            <p>b) Responsabilidad del usuario: 
+              el usuario que da en adopción es responsable de garantizar que el animal se encuentra en buenas condiciones de salud y 
+              bienestar, y que cumple con todos los requisitos legales para ser adoptado.</p>
+            <p>c) Selección de adoptante: el usuario tiene 
+              la responsabilidad de realizar una selección cuidadosa de los adoptantes potenciales, asegurándose de que pueda brindar un 
+              lugar adecuado y responsable para la mascota.</p>
+            <p>3. Adoptar</p>
+            <p>a) Compromiso del cuidado; el adoptante se compromete a 
+              brindar los cuidados necesarios para la salud y el bienestar de las mascotas.</p>
+            <p>b) No venta, Ni maltrato: el adoptante se 
+              compromete a NO vender, comerciar o maltratar a la mascota adoptada.</p>
+            <p>c) Responsabilidad: el adoptante se compromete a 
+              ser responsable de cuidar y brindar un hogar seguro para la mascota adoptada.</p>
+            </p>
+      </div>
+      <button style="margin-top: 20px; width: 140px; font-size: 20px;" id="closeTermsModal" onclick="closeTermsModal()">Aceptar</button>
+    </div>
+  </div>
+
+  <div class="btnAceptar">
+    <button id="open-terms-modal" type="button">Ver Términos y Condiciones</button>
+    <label for="termsCheckbox">
+      <input type="checkbox" id="termsCheckbox" class="custom-checkbox" required>
+      He revisado y acepto los Términos y Condiciones
+    </label>
+    <button id="open-preview-modal">Enviar Formulario</button>
+  </div>
+
+  <div id="preview-modal" class="modal1">
+    <div class="preview-container">
+      <div class="grid1"> 
+        <h2 style="text-align: center;">Vista Previa del Perfil</h2>
+      </div>
+      <div class="grid2">
+        <strong><img id="animalImagePreview" class="preview-image" alt="Vista previa de la imagen"></strong>
+      </div>
+    <div id="grid3">
+      <strong>Nombre:</strong> <span id="animalNombreAPreview"></span><br>
+      <strong>Edad:</strong> <span id="animalEdadAPreview"></span><br>
+      <strong>Raza:</strong> <span id="animalRazaAPreview"></span><br>
+      <strong>¿Tiene Vacunas?:</strong> <span id="animalVacunasElement"></span><br>
+      <strong>¿Cuales?:</strong> <span id="animalCualesVaElement"></span><br>
+      <strong>Enfermedades:</strong> <span id="animalEnfermedadElement"></span><br>
+      <strong>Discapacidad:</strong> <span id="animalDiscapacidadElement"></span><br>
+      <strong>Telefono:</strong> <span id="animalTelefonoElement"></span><br>
+      <strong>Correo:</strong> <span id="animalCorreoElement"></span><br>
+      <strong>Datos Adicionales:</strong> <span id="animalDatosAElement"></span><br>
+    </div> 
+    <div class="grid4">
+      <p style="text-align: center;">¿Los datos son correctos?</p> 
+      <button class="botonCon" id="confirm-preview-button" style="border-radius: 30px;">Si</button>
+      <button class="botonCon" id="edit-button" style="border-radius: 30px;">No</button>  
+    </div>
+  </div>  
+  </div>
+  <script type="module" src="Formulario.js"></script>
+</body>
+</html>

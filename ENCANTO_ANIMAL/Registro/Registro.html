@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="/Registro/registro.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="icon" href="/img/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap">
+</head>
+
+<body>
+    <header>
+        <a href="/Menú/Menu.html"><img src="/img/logo.png" alt="Logo" class="logo"></a>
+        <a href="/Menú/Menu.html"><h1 class="titulo">ENCANTO ANIMAL</h1></a>
+    </header>
+    <div class="VentanaR">
+        <div class="grid1">        
+            <img src="/img/logo.png" alt="" width="50" height="50">
+            <h1 class="titulocarp">Registro</h1>
+        </div>
+        <div class="grid2">
+            <h2>Nombre:</h2>
+            <input type="nombre" id="txtNombre" class="txtNombre" required>
+        </div>
+        <div class="grid3">
+            <h2>Apellidos:</h2>
+            <input type="text" id="txtApellido" class="txtApellido" required>
+        </div>
+        <div class="grid4">
+            <h2>Telefono:</h2>
+            <input type="tel" id="txtTelefono" class="txtTelefono" pattern="[0-9]+" title="Ingrese solo números" required>
+        </div>
+        <div class="grid5">
+            <h2>Email</h2>
+            <input type="email" id="txtEmailR" class="txtEmailR" required>
+        </div>
+        <div class="grid6">
+            <h2>Ingresa tu Contraseña</h2>
+            <input type="password" id="txtContraseña" class="txtContraseña" required>
+        </div>
+        <div class="grid7">
+            <h2>Confirma tu Contraseña</h2>
+            <input type="password" id="txtConfirmarContraseña" class="txtContraseña" required>
+        </div>
+        <div class="grid8">
+            <button class="botoncrear" id="crearCuentaBtn">Crear Cuenta</button>
+            <p>¿Ya tienes cuenta?. <a href="/InicioSesión/inicio_sesion.html" style="text-decoration: underline;">Ingresa a tu cuenta</a> </p> 
+        </div>
+    </div>
+    <script type="module" src="/Registro/registro.js" nonce="tu_nonce"></script>
+</body>
+
+</html>

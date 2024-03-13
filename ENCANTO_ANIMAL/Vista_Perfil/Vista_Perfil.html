@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Previa del Perfil</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap">
+    <link rel="icon" href="/img/logo.png" type="image/png">
+    <link rel="stylesheet" href="Vista_Perfil.css">
+</head>
+<body>
+    <header>
+        <a href="/Menú/Menu.html"><img src="/img/logo.png" alt="Logo" class="logo"></a>
+        <div class="perfil">
+            <a href="/Perfil_Usuario/Perfil_usuario.html">Perfil</a>
+            <a href="/Perfil_Usuario/Perfil_usuario.html"><i class="material-symbols-outlined">account_circle</i></a>
+        </div>
+        <a class="titulo" href="/Menú/Menu.html"><h1>ENCANTO ANIMAL</h1></a>
+    </header>
+    <h2>Vista Previa del Perfil del Animal</h2>
+    <div id="vistaPerfilContainer" class="contenido">
+        <img src="/img/pajaro.png" id="image" class="imagen">
+        <div id="animalInfoContainer" class="animal-info">
+            <p><strong>Nombre:</strong> <span id="nombreA">No especificado</span></p>
+            <p><strong>Edad:</strong> <span id="EdadA">No especificado</span></p>
+            <p><strong>Raza:</strong> <span id="RazaA">No especificada</span></p>
+            <p><strong>¿Cuenta con vacunas?:</strong> <span id="vacunas">No especificada</span></p>
+            <p><strong>¿Cuales?:</strong> <span id="cualesEnfermedades">No especificada</span></p>
+            <p><strong>Padece alguna enfermedad:</strong> <span id="enfermedad">No especificada</span></p>
+            <p><strong>Padece alguna discapacidad:</strong> <span id="discapacidad">No especificada</span></p>
+            <p><strong>Descripcion de la mascota:</strong> <span id="datosAdicionales">No especificada</span></p>
+        </div>
+    </div>
+    <h3>¿Están correctos los datos?</h3>
+    <div class="btn-container">
+        <button id="btnsi">SÍ</button>
+        <button id="btnno">NO</button>
+    </div>
+</body>
+<script type="module" src="Vista_Perfil.js"></script>
+</html>

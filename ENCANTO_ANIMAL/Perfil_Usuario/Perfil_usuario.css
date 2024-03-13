@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background-color: #FFE5B4;
+  align-items: center;
+}
+header {
+  display:grid;
+  text-align: center;
+  font-size: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+  background: #96DFBA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a  {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  position: fixed;
+  left: 200px;
+  top: 30px;
+  left: 20px;
+  height: 90px;
+  width: 90px;
+}
+  
+.titulo{
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  top: 31px;
+  font-family: "Rampart One";
+  font-weight: 500;
+  font-style: normal;
+  margin-top: -30px;
+}
+
+.perfiles {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 90px;
+  margin: 20px;
+  margin-top: 200px;
+  padding: 20px;
+  font-size: 40px;
+  width: 1100px;
+  height:280px;
+}
+.grid1 {
+  grid-column: 1;
+  grid-row: 1;
+  align-items: center;
+  text-align: start;
+}
+.grid2 {
+  grid-column: 1;
+  grid-row: 2/span 3;
+}
+.grid3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.grid4 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.grid5 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.grid6 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.grid7 {
+  text-align: center;
+  grid-column: 1 / span 2;
+  grid-row: 4;
+}
+.grid8 {
+  text-align: center;
+
+  grid-column: 3;
+  grid-row: 4;
+}
+.grid7 button ,
+.grid8 button {
+  font-size: 17px;
+  width: 160px;
+  height: 30px;
+  border-radius: 20px;
+  border-style: outset;
+  border: 1px solid black;
+}
+
+.perf{
+  font-weight: bold;
+  left: 100px;
+}
+
+.imagen{
+  width: 300px;
+  height: 300px;
+  border-radius: 15%;
+}
+
